@@ -5,7 +5,7 @@ import posts from "../../data/posts.json";
 function BlogPostSummaryPage() {
     return (
         <>
-            <h1>Ik, de acccumulatie van blogposts-pagina werk! Denk ik?</h1>
+            <h1>Blogpost overzicht</h1>
             <p>Er zijn momenteel in totaal {posts.length} blogposts.</p>
             <ul>
                 {posts.map((blogpost) => {
